@@ -1,0 +1,23 @@
+FIREWALL CONFIGURATION TEST RESULTS
+
+1. Firewall Status Check:
+Command: sudo ufw status verbose
+Result: Firewall is active
+
+2. Incoming Connections Test:
+Result: Incoming connections blocked by default policy (DENY)
+
+3. SSH Port Test (22):
+Result: Port 22 is allowed and accessible
+
+4. HTTP Port Test (80):
+Result: Port 80 is allowed
+
+5. HTTPS Port Test (443):
+Result: Port 443 is allowed
+
+6. Unauthorized Port Test (e.g., 8080):
+Result: Connection blocked successfully
+
+CONCLUSION:
+Firewall rules were successfully implemented. The system denies all incoming traffic except allowed services (SSH, HTTP, HTTPS).
